@@ -3,7 +3,7 @@ init -990 python:
         author="Friends of Monika",
         name="Calendar Week Format",
         description=_("This submod changes MAS calendar week format."),
-        version="1.0.0",
+        version="1.0.1",
         settings_pane="fom_week_format_settings_pane"
     )
 
