@@ -41,8 +41,15 @@ init 1 python in _fom_week_format:
     import calendar
     import dis
 
+    SUPPORTED_VERSIONS = [
+        "0.12.15",
+        "0.12.16",
+        "0.12.17",
+        "0.12.18"
+    ]
+
     def is_mas_version_supported():
-        return renpy.config.version.split("-")[0] == "0.12.15"
+        return renpy.config.version.split("-")[0] in SUPPORTED_VERSIONS
 
     def get_original_code():
         setupDayButtons_code = MASCalendar._setupDayButtons.func_code
