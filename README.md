@@ -70,7 +70,7 @@ You can track status and discussion of it [here](https://github.com/Monika-After
 <!-- Generic installation guide that works for .zip packages built by scripts of this template. -->
 ## ❓ Installing
 
-1. Go to [the latest release page](https://github.com/friends-of-monika/mas-week-format)
+1. Go to [the latest release page](https://github.com/friends-of-monika/mas-week-format/releases/latest)
    and scroll to Assets section.
 
 <!-- Replace YOUR_SUBMOD_FILE_NAME with your submod file name you'll release. -->
